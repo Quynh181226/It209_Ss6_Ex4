@@ -1,0 +1,6 @@
+# Đảm bảo shell script luôn dùng LF (Unix line endings) trên mọi hệ thống
+*.sh text eol=lf
+
+# Markdown và text file dùng CRLF trên Windows, LF trên Unix
+*.md text eol=lf
+*.txt text eol=lf
